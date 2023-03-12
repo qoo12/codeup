@@ -1,4 +1,4 @@
-def select_sort(arr) :
+def insert_sort(arr) :
     for i in range(len(arr)-1) :
         j = i+1
         while arr[j-1] > arr[j] and j > 0 :
